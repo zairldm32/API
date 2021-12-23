@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity2">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageViewFotoProgram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <TextView
+                android:id="@+id/textViewNamaProgram"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Judul Nama Program"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewinfoProgram"
+                android:layout_width="match_parent"
+                android:layout_height="323dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program Informasi Program"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textLink"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="web"
+                android:clickable="true"
+                android:text="Link"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
